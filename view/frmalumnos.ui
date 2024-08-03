@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>716</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>691</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>MANTENIMIENTO DE ALUMNOS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>701</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>INFORMACION DEL ALUMNO</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CODIGO:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txtcodigo">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>50</y>
+       <width>181</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>50</y>
+       <width>111</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>NOMBRES:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txtnombres">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>50</y>
+       <width>211</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>110</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>APELLIDOS:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txtapellidos">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>110</y>
+       <width>181</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>110</y>
+       <width>161</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ESPECIALIDAD:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cboesp">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>110</y>
+       <width>211</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>161</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PROCEDENCIA:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cboproc">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>170</y>
+       <width>181</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btneliminar">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>230</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>LIMPIAR</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnguardar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>230</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>GUARDAR</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>400</y>
+      <width>711</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>LISTA DE ALUMNOS</string>
+    </property>
+    <widget class="QTableWidget" name="tblalumnos">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>681</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>CODIGO</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>NOMBRES</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>APELLIDOS</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ESPECIALIDAD</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
