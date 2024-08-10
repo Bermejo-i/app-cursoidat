@@ -128,14 +128,27 @@
     <widget class="QPushButton" name="btnguardar">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>270</x>
        <y>230</y>
-       <width>411</width>
+       <width>191</width>
        <height>51</height>
       </rect>
      </property>
      <property name="text">
       <string>GUARDAR</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnnuevo">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>230</y>
+       <width>191</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>NUEVO</string>
      </property>
     </widget>
    </widget>
